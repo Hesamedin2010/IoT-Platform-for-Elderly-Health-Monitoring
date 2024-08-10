@@ -38,6 +38,7 @@ Key Features:
 - Uses Telegram for user interaction and notifications.
 
 **Getting Started**
+
 Prerequisites
 - Python 3.10
 - A Telegram bot token (register your bot at BotFather)
@@ -46,6 +47,7 @@ Prerequisites
 **Installation**
 1. Clone the repository:
 git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
+
 cd IoT-Platform-for-Elderly-Health-Monitoring
 
 3. Install the required Python packages:
