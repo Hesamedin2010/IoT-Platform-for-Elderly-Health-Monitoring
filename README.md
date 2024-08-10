@@ -47,10 +47,10 @@ Prerequisites
 git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
 cd IoT-Platform-for-Elderly-Health-Monitoring
 
-2. Install the required Python packages:
+3. Install the required Python packages:
 pip install -r requirements.txt
 
-3. Set up your Catalog.json file to define users and their configurations.
+4. Set up your Catalog.json file to define users and their configurations.
 
 **Running the Components**
 1. Start the Wearable Device Simulation:
