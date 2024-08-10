@@ -46,24 +46,25 @@ Prerequisites
 
 **Installation**
 1. Clone the repository:
-`git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
 
-`cd IoT-Platform-for-Elderly-Health-Monitoring
+`git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git`
+
+`cd IoT-Platform-for-Elderly-Health-Monitoring`
 
 3. Install the required Python packages:
-`pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Set up your Catalog.json file to define users and their configurations.
 
 **Running the Components**
 1. Start the Wearable Device Simulation:
-python WearableDevice.py
+`python WearableDevice.py`
 
 2. Start the ThingSpeak Adaptor:
-python ThingSpeakAdaptor.py
+`python ThingSpeakAdaptor.py`
 
 3. Start the Telegram Bot:
-python SmartHealthTelegram.py
+`python SmartHealthTelegram.py`
 
 **Directory Structure**
 smart-health-monitoring/
