@@ -46,12 +46,12 @@ Prerequisites
 
 **Installation**
 1. Clone the repository:
-```git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
+`git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
 
-```cd IoT-Platform-for-Elderly-Health-Monitoring
+`cd IoT-Platform-for-Elderly-Health-Monitoring
 
 3. Install the required Python packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt
 
 4. Set up your Catalog.json file to define users and their configurations.
 
