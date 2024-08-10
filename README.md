@@ -67,13 +67,21 @@ Prerequisites
 `python SmartHealthTelegram.py`
 
 **Directory Structure**
+
 smart-health-monitoring/
+
 │
+
 ├── Catalog.json                # Configuration file containing user information
+
 ├── WearableDevice.py           # Simulates a wearable device publishing data
+
 ├── ThingSpeakAdaptor.py        # Subscribes to MQTT topics and logs data to ThingSpeak
+
 ├── SmartHealthTelegram.py      # Telegram bot for user interaction and alerts
+
 ├── requirements.txt            # Python package dependencies
+
 └── README.md                   # Project documentation
 
 **Usage**
