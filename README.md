@@ -44,8 +44,8 @@ Prerequisites
 
 **Installation**
 1. Clone the repository:
-git clone https://github.com/yourusername/smart-health-monitoring.git
-cd smart-health-monitoring
+git clone https://github.com/Hesamedin2010/IoT-Platform-for-Elderly-Health-Monitoring.git
+cd IoT-Platform-for-Elderly-Health-Monitoring
 
 2. Install the required Python packages:
 pip install -r requirements.txt
