@@ -1,4 +1,4 @@
-**Smart Health Monitoring IoT Platform**
+**Smart Health Monitoring IoT Platform**\n
 This repository contains the implementation of a project for the course "IoT and Cloud for Sustainable Communities" as part of the master's program 
 in "Digital Skills for Sustainable Societal Transitions" at Politecnico di Torino. The project focuses on developing an IoT platform designed for 
 monitoring the health of elderly individuals, particularly those with conditions like Alzheimer's and dementia. The system is designed to alert 
