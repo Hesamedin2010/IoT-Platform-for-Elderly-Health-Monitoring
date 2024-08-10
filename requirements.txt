@@ -1,0 +1,6 @@
+cherrypy==18.8.0
+folium==0.15.1
+pandas==2.0.0
+requests==2.31.0
+paho-mqtt==1.6.1
+telepot==12.7
