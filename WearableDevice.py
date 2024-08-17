@@ -77,7 +77,7 @@ class WearableDevice:
             user_id = user['userID']
             for index, row in df.iterrows():
                 self.publish_sensor_data(user_id, row, username)
-                time.sleep(1.5)  # Simulate real-time data publishing
+                time.sleep(1)  # Simulate real-time data publishing
             logging.info(f"Successfully processed and published data from {filename}")
         except Exception as e:
             logging.error(f"Failed to process file for user {username}: {e}")

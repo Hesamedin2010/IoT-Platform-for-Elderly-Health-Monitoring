@@ -1,153 +1,92 @@
-{
-    "projectName": "IoT Platform for Elderly Health Monitoring",
-    "lastUpdate": "2024-08-09 19:50:07",
-    "users": [
-        {
-            "userID": 1,
-            "name": "Pippo",
-            "surname": "Pippo1",
-            "username": "Pippo23",
-            "password": "Pippo@23",
-            "latitude": 45.06702780930779,
-            "longitude": 7.656557680636689,
-            "csvFile": "Pippo23.csv",
-            "thingSpeakChannelID": "2505758",
-            "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
-        },
-        {
-            "userID": 3,
-            "name": "Homa",
-            "surname": "Jamalof",
-            "username": "Homa14",
-            "password": "Homa@14",
-            "latitude": 45.030462971697766,
-            "longitude": 7.656273992666321,
-            "csvFile": "Homa14.csv",
-            "thingSpeakChannelID": "2505758",
-            "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
-        },
-        {
-            "userID": 4,
-            "name": "Arman",
-            "surname": "Moradi",
-            "username": "Ar33",
-            "password": "Ar33@",
-            "latitude": 45.05428464205943,
-            "longitude": 7.686811353651298,
-            "csvFile": "Ar33.csv",
-            "thingSpeakChannelID": "2505758",
-            "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
-        },
-        {
-            "userID": 5,
-            "name": "Sajede",
-            "surname": "SajedeJalal",
-            "username": "Sajede73",
-            "password": "Sajede1373",
-            "latitude": 40.712776,
-            "longitude": -74.005974,
-            "csvFile": "Sajede73.csv",
-            "thingSpeakChannelID": "123456",
-            "thingSpeakWriteAPIKey": "XYZ123ABC"
-        },
-        {
-            "userID": 6,
-            "name": "Baharan",
-            "surname": "Montazeri",
-            "username": "Baharan200",
-            "password": "Baharan@100",
-            "latitude": "45",
-            "longitude": "7",
-            "csvFile": "Baharan100.csv",
-            "thingSpeakChannelID": "2505758",
-            "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
-        },
-        {
-            "userID": 7,
-            "name": "Hesam",
-            "surname": "Alemifar",
-            "username": "Hesam20",
-            "password": "Hesam@20",
-            "latitude": 45.080829,
-            "longitude": 7.688842,
-            "csvFile": "Hesam20.csv",
-            "thingSpeakChannelID": "2505758",
-            "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
-        }
-    ],
-    "devicesList": [
-        {
-            "deviceID": 1,
-            "deviceName": "SGC13C",
-            "measureType": [
-                "GPS"
-            ],
-            "unit": "Latitude and Longitude coordinates",
-            "normalRange": 500,
-            "availableServices": [
-                "MQTT"
-            ],
-            "servicesDetails": [
-                {
-                    "serviceType": "MQTT",
-                    "serviceIP": "mqtt.eclipse.org",
-                    "topic": [
-                        "SmartHealth/1/GPS",
-                        "SmartHealth/1/HTML"
-                    ]
-                }
-            ],
-            "lastUpdate": "2023-12-12"
-        },
-        {
-            "deviceID": 2,
-            "deviceName": "Pulse Sensor",
-            "measureType": [
-                "Heart Rate"
-            ],
-            "unit": "bpm",
-            "normalRange": [
-                60,
-                100
-            ],
-            "availableServices": [
-                "MQTT"
-            ],
-            "servicesDetails": [
-                {
-                    "serviceType": "MQTT",
-                    "serviceIP": "mqtt.eclipse.org",
-                    "topic": [
-                        "SmartHealth/2/pulse"
-                    ]
-                }
-            ],
-            "lastUpdate": "2023-12-12"
-        },
-        {
-            "deviceID": 3,
-            "deviceName": "Spo2",
-            "measureType": [
-                "Blood Oxygen"
-            ],
-            "unit": "%SpO2",
-            "normalRange": [
-                90,
-                100
-            ],
-            "availableServices": [
-                "MQTT"
-            ],
-            "servicesDetails": [
-                {
-                    "serviceType": "MQTT",
-                    "serviceIP": "mqtt.eclipse.org",
-                    "topic": [
-                        "SmartHealth/3/Spo2"
-                    ]
-                }
-            ],
-            "lastUpdate": "2023-12-12"
-        }
-    ]
+{"projectName":"IoT Platform for Elderly Health Monitoring",
+  "lastUpdate":"2024-08-15 17:58",
+  "users": [
+    {
+
+      "userID": 1,
+      "name":"Hesam",
+      "surname":"Alemifar",
+      "username": "Hesam20",
+      "password": "Hesam@20",
+      "latitude" : 45.07458503351405,
+      "longitude" : 7.701482095436164,
+      "csvFile": "Hesam20.csv",
+      "thingSpeakChannelID": "2505758",
+      "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
+    },
+    {
+      "userID": 2,
+      "name":"Homa",
+      "surname":"Jamalof",
+      "username": "Homa14",
+      "password": "Homa@14",
+      "latitude" : 45.030462971697766,
+      "longitude" : 7.656273992666321,
+      "csvFile": "Homa14.csv",
+      "thingSpeakChannelID": "2505758",
+      "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
+    },
+    {
+      "userID": 3,
+      "name":"Arman",
+      "surname":"Moradi",
+      "username": "Ar33",
+      "password": "Ar@33",
+      "latitude" : 45.05428464205943,
+      "longitude" : 7.686811353651298,
+      "csvFile": "Ar33.csv",
+      "thingSpeakChannelID": "2505758",
+      "thingSpeakWriteAPIKey": "L2ENIY2E42E4AT5J"
+    }
+  ],
+"devicesList":[
+    {
+      "deviceID":1,
+      "deviceName":"Quectel L86",
+      "measureType":["GPS"],
+      "unit":"Latitude and Longitude coordinates",
+      "normalRange": 500,
+      "availableServices":["MQTT"],
+      "servicesDetails":[
+          {
+            "serviceType":"MQTT",
+            "serviceIP":"mqtt.eclipse.org",
+            "topic":["SmartHealth/{user_id}/danger/gps"]
+          }
+      ],
+      "lastUpdate":"2023-12-12"
+    },
+    {
+      "deviceID":2,
+      "deviceName":"Maxim Integrated MAXM86161",
+      "measureType":["Heart Rate"],
+      "unit":"bpm",
+      "normalRange":[60, 100],
+      "availableServices":["MQTT"],
+      "servicesDetails":[
+          {
+            "serviceType":"MQTT",
+            "serviceIP":"mqtt.eclipse.org",
+            "topic":["SmartHealth/{user_id}/heart_rate", "SmartHealth/{user_id}/danger/heart_rate"]
+          }
+      ],
+      "lastUpdate":"2023-12-12"
+    },
+    {
+      "deviceID":3,
+      "deviceName":"Maxim Integrated MAXM86161",
+      "measureType":["Blood Oxygen"],
+      "unit":"%SpO2",
+      "normalRange":[90, 100],
+      "availableServices":["MQTT"],
+      "servicesDetails":[
+          {
+            "serviceType":"MQTT",
+            "serviceIP":"mqtt.eclipse.org",
+            "topic":["SmartHealth/{user_id}/blood_oxygen", "SmartHealth/{user_id}/danger/blood_oxygen"]
+          }
+      ],
+      "lastUpdate":"2023-12-12"
+    }
+  ]
 }

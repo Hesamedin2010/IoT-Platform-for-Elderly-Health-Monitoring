@@ -216,7 +216,7 @@ class Bot:
         print('Bot is listening ...')
 
         while 1:
-            time.sleep(10)
+            time.sleep(1)
 
 if __name__ == "__main__":
     token = "7148598555:AAH1ZwQWtdQ2g--nOimGMz_Ufy5x0UxUnbI"  # Replace with your actual token
