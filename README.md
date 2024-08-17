@@ -59,12 +59,15 @@ Prerequisites
 **Running the Components**
 1. Start the Wearable Device Simulation:
 `python WearableDevice.py`
-
-2. Start the ThingSpeak Adaptor:
-`python ThingSpeakAdaptor.py`
+data will be published
 
 3. Start the Telegram Bot:
 `python SmartHealthTelegram.py`
+alerts will be sent to the Telegram bot (@piricheck_bot)
+
+4. Start the ThingSpeak Adaptor:
+`python ThingSpeakAdaptor.py`
+data will be sent and visualized on ThingSpeak
 
 **Directory Structure**
 
