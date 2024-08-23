@@ -103,6 +103,6 @@ if __name__ == "__main__":
     subscriber.start()
     try:
         while True:
-            time.sleep(1)  # Keep the subscriber running
+            pass
     except KeyboardInterrupt:
         subscriber.stop()
